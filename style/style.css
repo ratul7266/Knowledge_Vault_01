@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.navbar-section {
+  display: flex;
+}
+.navbar-section img {
+  margin: 16px 0 16px 120px;
+}
+.navbar-section .menu a {
+  font-size: 16px;
+  line-height: 152%;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar-section ul {
+  list-style-type: none;
+  text-decoration: none;
+  gap: 32px;
+  margin: 34px auto 34px auto;
+  color: black;
+  opacity: 90%;
+}
+.navbar-section .menu {
+  display: flex;
+}
+.navbar-section button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navbar-section .btn {
+  background-color: #469165;
+  border: none;
+  margin: 24px 120px 24px auto;
+  padding: 16px 12px;
+  border-radius: 4px;
+}
