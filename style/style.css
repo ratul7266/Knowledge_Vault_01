@@ -45,6 +45,10 @@
   padding: 16px 12px;
   border-radius: 4px;
 }
+.hero #btn:hover {
+  background-color: #2f6f4e;
+  color: #ffffff;
+}
 /* ends of hero/header section */
 
 /* this is used for banner section */
@@ -116,9 +120,17 @@
   margin-right: 16px;
   border: none;
 }
+.banner-btn :hover {
+  background-color: #2f6f4e;
+  color: #ffffff;
+}
 .banner-btn .see-btn {
   background-color: transparent;
   border: 2px solid white;
+}
+.see-btn:hover {
+  background-color: transparent;
+  backdrop-filter: blur(100px);
 }
 .pill-shaped-color {
   position: relative;
@@ -269,7 +281,7 @@
 }
 /* ends of brain section */
 
-/* this is used for callenge/early access section  */
+/* this is used for CHALLENGES/early access section  */
 /* early access section starts here  */
 .Early-Access-section {
   background-color: #f7f6f2;
@@ -303,6 +315,10 @@
   text-decoration: none;
   border-radius: 4px;
   margin-bottom: 16px;
+}
+.early-contaxt .early-btn:hover {
+  background-color: #2f6f4e;
+  color: #ffffff;
 }
 .early-contaxt .second-p {
   font-size: 16px;
