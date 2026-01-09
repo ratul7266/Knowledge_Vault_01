@@ -195,8 +195,7 @@
   width: 322px;
   height: 300px;
   border-radius: 8px 8px 0 0;
-  box-shadow: 0 -6px 16px rgba(0, 0, 0, 0.1), 6px 0 16px rgba(0, 0, 0, 0.1),
-    -6px 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px #cfcece73;
   overflow: hidden;
 }
 .card-1 img {
@@ -231,6 +230,8 @@
   padding: 120px;
   justify-content: center;
   background-color: white;
+  position: relative;
+  top: -55px;
 }
 .brain-content {
   display: flex;
@@ -285,13 +286,15 @@
 /* early access section starts here  */
 .Early-Access-section {
   background-color: #f7f6f2;
-  margin: 2px 120px 120px 120px;
+  margin: 2px 120px 65px 120px;
   border-radius: 12px;
   max-height: 384px;
   text-align: center;
   justify-content: space-between;
   justify-items: center;
   padding: 80px 40px;
+  position: relative;
+  top: -55px;
 }
 .early-contaxt h2 {
   font-size: 40px;
