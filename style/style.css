@@ -54,7 +54,7 @@
 /* this is used for banner section */
 /* banner section start here */
 .banner-section {
-  background: url(/assets/hero-bg.png);
+  background: url(../assets/hero-bg.png);
   gap: 40px;
   align-items: center;
   justify-content: center;
