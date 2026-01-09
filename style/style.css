@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* it is used for all text family */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* Header section starts here */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,10 @@
   padding: 16px 12px;
   border-radius: 4px;
 }
+/* ends of hero/header section */
+
+/* this is used for banner section */
+/* banner section start here */
 .banner-section {
   background: url(/assets/hero-bg.png);
   gap: 40px;
@@ -71,11 +77,9 @@
   display: flex;
 }
 .banner-head {
-  width: 1160px;
   text-align: center;
   margin: 70px 120px 134px 120px;
   justify-content: center;
-  /* border: 2px solid red; */
 }
 .banner-heading h1 {
   font-size: 72px;
@@ -92,7 +96,6 @@
   color: white;
   line-height: 2;
   letter-spacing: 50%;
-  max-width: 1360px;
   margin: 20px auto 32px;
   font-weight: 400;
   /* background-color: red; */
@@ -147,6 +150,10 @@
   border-radius: 100%;
   position: absolute;
 }
+/* end of banner section */
+
+/* this is used for note section  */
+/* note section start here  */
 .note-text {
   text-align: center;
 }
@@ -162,19 +169,19 @@
   font-size: 16px;
   font-weight: 400;
   color: #627382;
+  margin-bottom: 44px;
 }
 .note-card {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
 .card-1 {
   padding: 24px;
-  margin: 24px;
+  margin: 24px 0px;
   text-align: center;
-  max-width: 322px;
-  max-height: 300px;
+  width: 322px;
+  height: 300px;
   border-radius: 8px 8px 0 0;
   box-shadow: 0 -6px 16px rgba(0, 0, 0, 0.1), 6px 0 16px rgba(0, 0, 0, 0.1),
     -6px 0 16px rgba(0, 0, 0, 0.1);
@@ -184,8 +191,8 @@
   border: none;
   background-color: #f95555;
   border-radius: 100%;
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   margin-top: 24px;
   padding: 15px 12px;
   margin-bottom: 16px;
@@ -200,22 +207,26 @@
   font-weight: 400;
   color: #627382;
 }
+.note-heading,
+.note-card {
+  background-color: white;
+}
+/* ends of note section */
+
+/* this is used for brain/main/article section  */
+/* brain section starts here  */
 .brain-section {
-  margin: 120px;
+  padding: 120px;
   justify-content: center;
-  max-width: 1600px;
-  max-height: 840px;
+  background-color: white;
 }
 .brain-content {
   display: flex;
   gap: 85px;
   align-items: center;
-  max-width: 1360px;
-}
-.brain-context {
-  /* border: 2px solid red; */
-  max-width: 700px;
-  max-height: 396px;
+  justify-content: center;
+  justify-content: left;
+  margin-top: -10px;
 }
 .brain-content img {
   width: 600px;
@@ -256,3 +267,81 @@
   max-height: 16.25px;
   margin-right: 6px;
 }
+/* ends of brain section */
+
+/* this is used for callenge/early access section  */
+/* early access section starts here  */
+.Early-Access-section {
+  background-color: #f7f6f2;
+  margin: 2px 120px 120px 120px;
+  border-radius: 12px;
+  max-height: 384px;
+  text-align: center;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 80px 40px;
+}
+.early-contaxt h2 {
+  font-size: 40px;
+  font-weight: 700px;
+  margin: 16px;
+}
+.early-contaxt .first-p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+.early-contaxt .early-btn {
+  background-color: #469165;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.early-contaxt .second-p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  line-height: 20px;
+  margin-top: 24px;
+}
+/* ends of early section */
+
+/* this is used for footer section  */
+/* footer section starts here  */
+.footer-section {
+  padding: 120px 120px 30px 120px;
+
+  background-color: #001931;
+}
+.footer-contant {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.social-link {
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400px;
+  padding-right: 107px;
+}
+.footer-contant hr {
+  color: white;
+}
+.footer-text {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+/* ends of journey assignment-01 */
+/* developer by MD RATUL */
